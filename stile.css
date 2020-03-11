@@ -47,6 +47,10 @@ li {
 .bd-w {
     border: 1px solid #fff;
 }
+.zag {
+    width: 100%;
+    
+}
 .text {
      
     position: relative;
@@ -72,4 +76,12 @@ li {
     z-index: 25;
     top: 45%;
     left: 92%; 
+}
+.miky {
+    position: relative;
+    top: -850px;
+    left: 14px;
+  z-index: -2;
+  width: 250px;
+  height: 250px;
 }
