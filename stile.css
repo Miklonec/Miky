@@ -41,22 +41,11 @@ li {
     text-decoration: none;
     color: #fff;
 }
-.col-12 {
-    text-align: center;
-    margin-top: 170px;
+.bd {
+    border: 1px solid #000;
+}
+.bd-w {
     border: 1px solid #fff;
-}
-.col-4 {
-    text-align: center;
-    margin-left: 6px;
-    margin-top: 45px;
-    border: 1px solid #fff ; 
-}
-.col-8 {
-    text-align: center;
-    margin-left: 446px;
-    margin-top: -845px;
-    border: 1px solid #fff ; 
 }
 .text {
      
