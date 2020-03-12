@@ -1,0 +1,17 @@
+@keyframes localFight {
+    0% {
+        
+        top: 45%;
+        left: 90%;
+
+    }
+    50% {
+        top: 5%;
+        left: -90%;  
+
+    }
+    100% {
+        top: 45%;
+        left: 90%; 
+    }
+}
