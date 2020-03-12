@@ -47,10 +47,32 @@ li {
 .bd-w {
     border: 1px solid #fff;
 }
+.fon-hei {
+    position: relative;
+    top: -320px;
+    left: 358px;
+    z-index: -2;
+    width: 680px;
+    height: 275px;
+}
+.trial-figh {
+    position: relative;
+    top: -320px;
+    left: 55px;
+    z-index: -2;
+    width: 8px;
+    height: 8px;
+}
 .zag {
     width: 100%;
     
 }
+.headline-news {
+    padding-left:380px;
+    color: rgb(207, 207, 207);
+    text-transform: uppercase;    
+}
+
 .text {
      
     position: relative;
@@ -79,9 +101,34 @@ li {
 }
 .miky {
     position: relative;
-    top: -850px;
+    top: -865px;
     left: 14px;
     z-index: -2;
     width: 250px;
     height: 250px;
+}
+.kor {
+    position: relative;
+    top: -915px;
+    left: 14px;
+    z-index: -2;
+    width: 250px;
+    height: 250px; 
+    
+}
+.hist {
+    position: relative;
+    top: -950px;
+    left: 14px;
+    z-index: -2;
+    width: 250px;
+    height: 250px; 
+}
+.maket {
+    position: relative;
+    top: -970px;
+    left: 28px;
+    z-index: -2;
+    width: 220px;
+    height: 220px; 
 }
