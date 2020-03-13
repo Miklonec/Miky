@@ -96,7 +96,7 @@
     100% {
         top: 5%;
         left: -45%;
-        transform:  rotate(-260deg);  
+        transform: scale(45) rotate(-260deg);  
     }
 
 }
