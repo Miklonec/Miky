@@ -72,6 +72,68 @@ li {
     height: 145px;
 
 }
+/* ...............................................................кнопка_в_бой */
+.email-bt {
+    background:rgb(61, 7, 7);
+    border:2px solid #2a0c0a;
+    border-radius:50%;
+    box-shadow:0 8px 10px #310d0a4d;
+    cursor:pointer;
+    height:68px;
+    text-align:center;
+    width:68px;
+    position: relative;
+    left: 2%;
+    bottom: 32%;
+    z-index:999;
+    transition:.3s;
+    /* -webkit-animation:email-an linear 1s infinite; */
+    animation:email-an linear 1s infinite;
+}
+.email-bt .text-call{
+    height:58px;
+    width:58px;        
+    border-radius:50%;
+    position:relative;
+    overflow:hidden;
+}
+.email-bt .text-call span {
+    text-align: center;
+    color:#444546;
+    opacity: 0;
+    font-size: 0;
+        position:absolute;
+        right: 4px;
+        top: 22px;
+    line-height: 14px;
+        font-weight: 600;
+    text-transform: uppercase;
+    transition: opacity .3s linear;
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
+}
+.email-bt .text-call:hover span {
+    opacity: 1;
+        font-size: 11px;
+}
+.email-bt:hover i {
+    display:none;
+}
+.email-bt:hover i {
+        color:#38a3fd;
+        font-size:40px;
+        transition:.3s;
+}
+.email-bt i {
+        color:#fff;
+        font-size:29px;
+        transition:.3s;
+        line-height: 66px;
+}
+.email-bt i  {
+    /* -webkit-animation: opsimple 3s infinite; */
+    animation: opsimple 3s infinite;
+}
+/* ...............................................................кнопка_в_бой */
 .greating {
     background: url(img/Layer\ 23.png) no-repeat;
     width: 668px;
