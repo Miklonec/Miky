@@ -184,21 +184,21 @@ li {
 .beatle {
     position: absolute;
     transition: all 2s ease;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     z-index: -12;
-    top: 45%;
-    left: 90%; 
+    /* top: 45%;
+    left: 90%;  */
     animation: localFight 40s infinite alternate both;
 }
 .berk {
     position: absolute;
     transition: all 2s ease;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     z-index: -12;
-    top: 45%;
-    left: 92%;
+    /* top: 45%;
+    left: 92%; */
     animation: LokalBerk 40s infinite alternate both; 
 }
 .aster {
@@ -207,8 +207,8 @@ li {
     width: 1px;
     height: 1px;
     z-index: -12;
-    top: 1%;
-    left: 99%;
+    /* top: 1%;
+    left: 99%; */
     animation: LokalAster 40s infinite alternate both; 
 }
 .aster2 {
@@ -217,8 +217,8 @@ li {
     width: 1px;
     height: 1px;
     z-index: -12;
-    top: 55%;
-    left: 99%;
+    /* top: 55%;
+    left: 99%; */
     animation: LokalAster2 60s infinite alternate both; 
 }
 .miky {
