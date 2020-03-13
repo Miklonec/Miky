@@ -118,6 +118,11 @@ li {
 .email-bt:hover i {
     display:none;
 }
+.email-bt:hover {
+    z-index:1;
+    background:#fff;
+    transition:.3s
+}
 .email-bt:hover i {
         color:#38a3fd;
         font-size:40px;
