@@ -7,7 +7,7 @@
     }
     50% {
         top: 25%;
-        left: -90%;  
+        left: -20%;  
 
     }
     60% {
@@ -15,21 +15,90 @@
         left: 10%;  
     }
      70% {
-        top: 45%;
-        left: 150%;
+        top: 35%;
+        left: 5%;
     }
     80% {
-        top: 55%;
-        left: 20%;
+        top: 35%;
+        left: 10%;
     }
     90% {
-        top: 65%;
-        left: 25%;
+        top: 55%;
+        left: 15%;
     }
     100% {
         top: 45%;
         left: 90%; 
     }
+}
+@keyframes LokalBerk {
+    0% {
+        
+        top: 40%;
+        left: 80%;
+
+    }
+    50% {
+        top: 20%;
+        left: -20%;  
+
+    }
+    60% {
+        top: 30%;
+        left: 5%;  
+    }
+     70% {
+        top: 40%;
+        left: 15%;
+    }
+    80% {
+        top: 45%;
+        left: 10%;
+    }
+    90% {
+        top: 50%;
+        left: 20%;
+    }
+    100% {
+        top: 45%;
+        left: 95%; 
+    }
+}
+@keyframes LokalAster {
+    0% {
+        top: 1%;
+        left: 99%;
+        /* transform: scale(5) rotate(-60deg);   */
+    }
+    /* 80% {
+        top: 75%;
+        left: 5%; 
+        
+    } */
+    90% {
+        top: 95%;
+        left: -45%; 
+    }
+    100% {
+        top: 85%;
+        left: -45%;
+        transform: scale(200) rotate(-260deg);  
+    }
+}
+@keyframes LokalAster2 {
+    0% {
+        top: 75%;
+        left: 99%;
+        
+    }
+   
+    
+    100% {
+        top: 5%;
+        left: -45%;
+        transform:  rotate(-260deg);  
+    }
+
 }
 @keyframes email-an {
     0% {
