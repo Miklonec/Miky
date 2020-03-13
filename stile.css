@@ -60,7 +60,7 @@ li {
     position: absolute;
     top: 249px;
     left: 24px;
-    z-index: -2;
+    z-index: -3;
     width:249px;
     height:145px;
     
@@ -75,18 +75,18 @@ li {
 }
 /* ...............................................................кнопка_в_бой */
 .email-bt {
-    background:rgb(61, 7, 7);
-    border:2px solid #2a0c0a;
+    background:rgb(201, 13, 13);
+    border:3px solid rgb(17, 118, 177, 0.3);
     border-radius:50%;
-    box-shadow:0 8px 10px #310d0a4d;
+    box-shadow:0 8px 10px #0200004d;
     cursor:pointer;
-    height:68px;
+    height:58px;
     text-align:center;
-    width:68px;
+    width:58px;
     position: relative;
-    left: 2%;
+    left: 3%;
     bottom: 32%;
-    z-index:999;
+    z-index:1;
     transition:.3s;
     /* -webkit-animation:email-an linear 1s infinite; */
     animation:email-an linear 1s infinite;
@@ -100,38 +100,39 @@ li {
 }
 .email-bt .text-call span {
     text-align: center;
-    color:#444546;
-    opacity: 0;
-    font-size: 0;
-        position:absolute;
-        right: 4px;
-        top: 22px;
-    line-height: 14px;
-        font-weight: 600;
+    color:#180404;
+    opacity: 3;
+    font-size: 3;
+    position:absolute;
+    right: 16px;
+    top: 13px;
+    line-height: 15px;
+    font-weight: 999;
     text-transform: uppercase;
     transition: opacity .3s linear;
     font-family: 'montserrat', Arial, Helvetica, sans-serif;
 }
 .email-bt .text-call:hover span {
-    opacity: 1;
-        font-size: 11px;
+    opacity: 3;
+    font-size: 19px;
+    
 }
 .email-bt:hover i {
     display:none;
 }
 .email-bt:hover {
     z-index:1;
-    background:rgb(117, 16, 16);
+    background:rgb(255, 28, 28);
     transition:.3s
 }
 .email-bt:hover i {
-        color:#38a3fd;
-        font-size:40px;
+        color:#0a0e11;
+        font: size 9px;
         transition:.3s;
 }
 .email-bt i {
-        color:rgb(102, 27, 27);
-        font-size:29px;
+        color:rgb(121, 9, 9);
+        font-size: 9px;
         transition:.3s;
         line-height: 66px;
 }
@@ -141,7 +142,7 @@ li {
 }
 /* ...............................................................кнопка_в_бой */
 .greating {
-    background: url(img/Layer\ 23.png) no-repeat;
+    background: url(img/ekran.png) no-repeat;
     width: 668px;
     height: 278px;
     position: absolute;
