@@ -58,7 +58,7 @@ li {
 }
 .trial-fight {
     position: absolute;
-    top: 249px;
+    top: 245px;
     left: 24px;
     z-index: -3;
     width:249px;
@@ -75,17 +75,17 @@ li {
 }
 /* ...............................................................кнопка_в_бой */
 .email-bt {
-    background:rgb(201, 13, 13);
-    border:3px solid rgb(17, 118, 177, 0.3);
+    background:#8d2626;
+    border:3px solid rgba(255, 251, 2, 0.3);
     border-radius:50%;
-    box-shadow:0 8px 10px #0200004d;
+    box-shadow:0 8px 10px #ffffff4d;
     cursor:pointer;
     height:58px;
     text-align:center;
     width:58px;
     position: relative;
     left: 3%;
-    bottom: 32%;
+    bottom: 29%;
     z-index:1;
     transition:.3s;
     /* -webkit-animation:email-an linear 1s infinite; */
@@ -100,7 +100,7 @@ li {
 }
 .email-bt .text-call span {
     text-align: center;
-    color:#180404;
+    color:#fae3e3;
     opacity: 3;
     font-size: 3;
     position:absolute;
@@ -230,18 +230,18 @@ li {
     width: 250px;
     height: 250px;
 }
-.kor {
+.land {
     position: relative;
-    top: -915px;
+    top: -870px;
     left: 14px;
     z-index: -2;
     width: 250px;
-    height: 250px; 
+    height: 180px; 
     
 }
 .hist {
     position: relative;
-    top: -950px;
+    top: -873px;
     left: 14px;
     z-index: -2;
     width: 250px;
@@ -249,7 +249,7 @@ li {
 }
 .maket {
     position: relative;
-    top: -970px;
+    top: -895px;
     left: 28px;
     z-index: -2;
     width: 220px;
