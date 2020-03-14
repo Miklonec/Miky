@@ -68,77 +68,68 @@ li {
 .trial-fight img {
     
    background-size: 100%;
-    /* object-fit: cover; */
     width:249px;
     height: 145px;
 
 }
-/* ...............................................................кнопка_в_бой */
-.email-bt {
-    background:#8d2626;
-    border:3px solid rgba(255, 251, 2, 0.3);
-    border-radius:50%;
-    box-shadow:0 8px 10px #ffffff4d;
-    cursor:pointer;
-    height:58px;
-    text-align:center;
-    width:58px;
+/* ..........................................Форма_авторизации */
+.login-form {
+    display: flex;
+    flex-direction: column;
     position: relative;
-    left: 3%;
-    bottom: 29%;
-    z-index:1;
-    transition:.3s;
-    /* -webkit-animation:email-an linear 1s infinite; */
-    animation:email-an linear 1s infinite;
+    top: -331px;
+    left: 15px;
+    width: 233px;
+    /* z-index: -1; */
+
+
 }
-.email-bt .text-call{
-    height:58px;
-    width:58px;        
-    border-radius:50%;
-    position:relative;
-    overflow:hidden;
-}
-.email-bt .text-call span {
-    text-align: center;
-    color:#fae3e3;
-    opacity: 3;
-    font-size: 3;
-    position:absolute;
-    right: 16px;
-    top: 13px;
-    line-height: 15px;
-    font-weight: 999;
-    text-transform: uppercase;
-    transition: opacity .3s linear;
-    font-family: 'montserrat', Arial, Helvetica, sans-serif;
-}
-.email-bt .text-call:hover span {
-    opacity: 3;
-    font-size: 19px;
+.user-login, .user-pass {
+    padding: 17px 0;
+    background: #0b0a23;
+    border: 1px solid #000;
     
+
 }
-.email-bt:hover i {
-    display:none;
+.user-login ::-webkit-input-placeholder {
+    color: rgb(207, 207, 207);
 }
-.email-bt:hover {
-    z-index:1;
-    background:rgb(255, 28, 28);
-    transition:.3s
+.user-login ::-ms-input-placeholder {
+    color: rgb(207, 207, 207);
 }
-.email-bt:hover i {
-        color:#0a0e11;
-        font: size 9px;
-        transition:.3s;
+.user-login :-ms-input-placeholder {
+    color: rgb(207, 207, 207);
 }
-.email-bt i {
-        color:rgb(121, 9, 9);
-        font-size: 9px;
-        transition:.3s;
-        line-height: 66px;
+.user-login :-moz-placeholder {
+    color: rgb(207, 207, 207);
 }
-.email-bt i  {
-    /* -webkit-animation: opsimple 3s infinite; */
-    animation: opsimple 3s infinite;
+.user-login ::-moz-placeholder {
+    color: rgb(207, 207, 207);
+}
+/* ...............................................................кнопка_в_бой */
+.top_button {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    top: -253px;
+    left: 29px;
+    border-radius: 100%;
+}
+.top-button-img {
+    width: 100%;
+}
+.top-button-img:focus {
+    border: 1px solid transparent;
+    outline: transparent;
+} 
+.top-button-img:active {
+    position: relative;
+    top: 5px;
+}
+.down-button-img {
+   width: 100%;
+   position: relative;
+   top: -34px; 
 }
 /* ...............................................................кнопка_в_бой */
 .greating {
