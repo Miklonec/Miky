@@ -12,6 +12,15 @@ body {
     background-size: cover;
     /* overflow: hidden; */
 }
+.rigel {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    left: 210px;
+    top: -530px;
+    border-radius: 50%;
+    z-index: -15;
+}
 
 li {
     list-style-type: none;
@@ -20,7 +29,7 @@ li {
     width: 550px;
     position: relative;
     left: 450px;
-    top: 20px;    
+    top: 320px;    
 }
 .menu ul {
     display: flex;
@@ -50,6 +59,10 @@ li {
 .bd-w {
     border: 1px solid #fff;
 }
+.front-page {
+    position: relative;
+    top: -400px;
+}
 .fon-hei {
     position: relative;
     top: -320px;
@@ -60,7 +73,7 @@ li {
 }
 .trial-fight {
     position: absolute;
-    top: 245px;
+    top: 545px;
     left: 24px;
     z-index: -3;
     width:249px;
@@ -79,7 +92,7 @@ li {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: -331px;
+    top: -727px;
     left: 15px;
     width: 233px;
     /* z-index: -1; */
@@ -114,7 +127,7 @@ li {
     position: relative;
     width: 70px;
     height: 70px;
-    top: -253px;
+    top: -653px;
     left: 29px;
     border-radius: 100%;
 }
@@ -141,7 +154,7 @@ li {
     text-transform: uppercase;
     font-size: 13px;
     text-shadow: 2px 2px 3px black, 0 0 1em red;
-    top: -220px;
+    top: -620px;
     left: 26px;
 
 }
@@ -151,7 +164,7 @@ li {
     height: 289px;
     position: absolute;
     left: 380px;
-    top: 74px;
+    top: 374px;
     z-index: -1;
     background-size: cover;
     line-height: 1.3;
