@@ -33,6 +33,7 @@ li {
     color: rgb(207, 207, 207);
     text-transform: uppercase;
     font-size: 13px;
+    text-shadow: 2px 2px 3px black, 0 0 1em red;
     border-bottom: 1px dotted;
     padding-bottom: 3px;
     font-stretch: ultra-expanded;
@@ -106,7 +107,8 @@ li {
 .user-login ::-moz-placeholder {
     color: rgb(207, 207, 207);
 }
-/* ...............................................................кнопка_в_бой */
+/* ..........................................Форма_авторизации */
+/* ............................................кнопка_в_бой */
 .top_button {
     position: relative;
     width: 70px;
@@ -131,14 +133,25 @@ li {
    position: relative;
    top: -34px; 
 }
-/* ...............................................................кнопка_в_бой */
+/* .............................................кнопка_в_бой */
+.explanation-text {
+    position: relative;
+    color: rgb(207, 207, 207);
+    text-transform: uppercase;
+    font-size: 13px;
+    text-shadow: 2px 2px 3px black, 0 0 1em red;
+    top: -220px;
+    left: 26px;
+
+}
 .greating {
     background: url(img/ekran.png) no-repeat;
-    width: 668px;
-    height: 278px;
+    width: 670px;
+    height: 289px;
     position: absolute;
-    left: 383px;
-    top: 80px;
+    left: 380px;
+    top: 74px;
+    z-index: -1;
     background-size: cover;
     line-height: 1.3;
     font-size: 140%;
@@ -149,6 +162,7 @@ li {
 .text-1 {
     text-align: center;
     font-size: 130% ;
+    text-shadow: 2px 2px 3px black, 0 0 1em red;
 }
 .news-heading {
     padding: 10px 0;
@@ -215,34 +229,69 @@ li {
 }
 .miky {
     position: relative;
-    top: -865px;
+    top: -905px;
     left: 14px;
     z-index: -10;
     width: 250px;
     height: 250px;
 }
+.explanation-text2 {
+    position: relative;
+    color: rgb(207, 207, 207);
+    text-transform: uppercase;
+    font-size: 13px;
+    text-shadow: 2px 2px 3px black, 0 0 1em red;
+    top: -670px;
+    left: 66px;
+}
 .land {
     position: relative;
-    top: -870px;
+    top: -908px;
     left: 14px;
     z-index: -2;
     width: 250px;
-    height: 180px; 
-    
+    height: 180px;     
+}
+.explanation-text3 {
+    position: relative;
+    color: rgb(207, 207, 207);
+    text-transform: uppercase;
+    font-size: 13px;
+    text-shadow: 2px 2px 3px black, 0 0 1em red;
+    top: -930px;
+    left: 66px;
 }
 .hist {
     position: relative;
-    top: -873px;
+    top: -943px;
     left: 14px;
     z-index: -2;
     width: 250px;
     height: 250px; 
 }
+.explanation-text4 {
+    position: relative;
+    color: rgb(207, 207, 207);
+    text-transform: uppercase;
+    font-size: 13px;
+    text-shadow: 2px 2px 3px black, 0 0 1em red;
+    top: -1012px;
+    left: 96px;
+}
 .maket {
     position: relative;
-    top: -895px;
+    top: -1000px;
     left: 28px;
     z-index: -2;
     width: 220px;
     height: 220px; 
+}
+.explanation-text5 {
+    position: relative;
+    color: rgb(207, 207, 207);
+    text-transform: uppercase;
+    font-size: 13px;
+    text-shadow: 2px 2px 3px black, 0 0 1em red;
+    top: -1072px;
+    left: 86px;
 }
