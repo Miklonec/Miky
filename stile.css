@@ -10,9 +10,21 @@ body {
     background: url(img/sky.png) no-repeat;
     background-size: cover;
 }
+.logo-content {
+    margin-bottom: 110px;
+
+}
+.logo {
+    margin-right: 50px;
+    margin-top: 80px;
+}
+.logo img {
+    width: 100%;
+    
+}
 .rigel {
     position: absolute;
-    width: 100%;
+    width: 50%;
     /* height: 1500px; */
     left: -130px;
     top: -700px;
@@ -93,12 +105,14 @@ li {
     width: 223px;
 }
 .user-login, .user-pass {
-    padding: 17px 0;
-    background: #fff;
+    padding: 13px 0;
+    /* background: #900908; */
+    background: url(img/login-bg.png);
     border: 1px solid #000;
-    color: #000;
-    border-radius: 5px;
+    color: #fff;
+    border-radius: 11px;
     padding-left: 40px;
+    font-size: 18px;
 }
 .user-login-icon {
     width: 25px;
@@ -182,7 +196,7 @@ input.user-pass::-moz-placeholder {
     position: relative;
     width: 70px;
     height: 70px;
-    top: -270px;
+    top: -310px;
     left: 29px;
     border-radius: 100%;
 }
@@ -209,7 +223,7 @@ input.user-pass::-moz-placeholder {
     text-transform: uppercase;
     font-size: 13px;
     text-shadow: 2px 2px 3px black, 0 0 1em red;
-    top: -1420px;
+    top: -275px;
     left: 26px;
 
 }
