@@ -10,6 +10,16 @@ body {
     background: url(img/sky.png) no-repeat;
     background-size: cover;
 }
+.rigel {
+    position: relative;
+    width: 1500px;
+    height: 1500px;
+    left: -630px;
+    top: -1250px;
+    border-radius: 100%;
+    z-index: -15;
+}
+
 li {
     list-style-type: none;
 }
@@ -17,7 +27,7 @@ li {
     width: 550px;
     position: relative;
     left: 450px;
-    top: 20px;    
+    top: 320px;    
 }
 .menu ul {
     display: flex;
@@ -47,6 +57,8 @@ li {
 }
 .front-page {
     z-index: -1;
+    position: relative;
+    top: -1200px;
 }
 .fon-hei {
     position: relative;
@@ -58,7 +70,7 @@ li {
 }
 .trial-fight {
     position: absolute;
-    top: 245px;
+    top: 545px;
     left: 24px;
     z-index: -3;
     width:249px;
@@ -75,6 +87,7 @@ li {
     flex-direction: column;
     position: relative;
     top: -329px;
+    top: -1527px;
     left: 15px;
     width: 225px;
     /* z-index: -1; */
@@ -170,7 +183,7 @@ input.user-pass::-moz-placeholder {
     position: relative;
     width: 70px;
     height: 70px;
-    top: -253px;
+    top: -1453px;
     left: 29px;
     border-radius: 100%;
 }
@@ -197,7 +210,7 @@ input.user-pass::-moz-placeholder {
     text-transform: uppercase;
     font-size: 13px;
     text-shadow: 2px 2px 3px black, 0 0 1em red;
-    top: -220px;
+    top: -1420px;
     left: 26px;
 
 }
@@ -207,7 +220,7 @@ input.user-pass::-moz-placeholder {
     height: 289px;
     position: absolute;
     left: 380px;
-    top: 74px;
+    top: 374px;
     z-index: -1;
     background-size: cover;
     line-height: 1.3;
@@ -227,18 +240,26 @@ input.user-pass::-moz-placeholder {
 }
 .zag {
     width: 100%;
+    
+}
+.banner {
+    width: 100%;    
 }
 .headline-news {
     padding-left:380px;
     color: rgb(207, 207, 207);
-    text-transform: uppercase;    
+    text-transform: uppercase;
+       
+}
+.text-white {
+    text-align: justify;
 }
 .text {
     position: relative;
     right: 0;
     width: 200px;
     border: 1px solid #fff;
-    padding: 20px;
+    padding: 20px; 
 }
 .beatle {
     position: absolute;
@@ -272,6 +293,7 @@ input.user-pass::-moz-placeholder {
     z-index: -12;
     animation: LokalAster2 60s infinite alternate both; 
 }
+/* ...........................................Телевизор */
 .miky {
     position: relative;
     top: -905px;
@@ -340,3 +362,4 @@ input.user-pass::-moz-placeholder {
     top: -1072px;
     left: 86px;
 }
+/* ...........................................Телевизор */
