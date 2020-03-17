@@ -24,10 +24,10 @@ body {
 }
 .rigel {
     position: absolute;
-    width: 50%;
+    width: 70%;
     /* height: 1500px; */
     left: -130px;
-    top: -700px;
+    top: -280px;
     border-radius: 100%;
     z-index: -15;
 }
