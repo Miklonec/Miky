@@ -7,7 +7,7 @@ var myZoom = document.getElementById('my-zoom');
 var width = screen.width;
 
 if (width <= 1366) {
-    myZoom.style.zoom = "75%";
+    myZoom.style.zoom = "90%";
 }
 
 console.log(myZoom);

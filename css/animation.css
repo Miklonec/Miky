@@ -2,7 +2,7 @@
     0% {
         
         top: 55%;
-        left: 60%;
+        left: 90%;
 
     }
     50% {
@@ -11,57 +11,57 @@
 
     }
     60% {
-        top: 35%;
+        top: 55%;
         left: 10%;  
     }
      70% {
-        top: 35%;
+        top: 65%;
         left: 5%;
     }
     80% {
-        top: 35%;
+        top: 75%;
         left: 10%;
     }
     90% {
-        top: 55%;
+        top: 65%;
         left: 15%;
     }
     100% {
         top: 55%;
-        left: 45%; 
+        left: 95%; 
     }
 }
 @keyframes LokalBerk {
     0% {
         
         top: 45%;
-        left: 60%;
+        left: 85%;
 
     }
     50% {
-        top: 20%;
-        left: -10%;  
+        top: 25%;
+        left: -13%;  
 
     }
     60% {
-        top: 30%;
+        top: 55%;
         left: 5%;  
     }
      70% {
-        top: 40%;
-        left: 15%;
+        top: 60%;
+        left: 10%;
     }
     80% {
-        top: 45%;
+        top: 70%;
         left: 10%;
     }
     90% {
-        top: 50%;
+        top: 65%;
         left: 20%;
     }
     100% {
         top: 55%;
-        left: 47%; 
+        left: 90%; 
     }
 }
 @keyframes LokalAster {
@@ -87,14 +87,14 @@
 }
 @keyframes LokalAster2 {
     0% {
-        top: 75%;
+        top: 120%;
         left: 99%;
         
     }
    
     
     100% {
-        top: 5%;
+        top: 75%;
         left: -45%;
         transform: scale(45) rotate(-260deg);  
     }
