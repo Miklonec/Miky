@@ -25,11 +25,10 @@ body {
 .rigel {
     position: absolute;
     width: 70%;
-    /* height: 1500px; */
     left: -130px;
     top: -280px;
     border-radius: 100%;
-    z-index: -15;
+    z-index: -16;
 }
 .h-450 {
     height: 450px;
@@ -155,9 +154,9 @@ li {
     left: 192px;
     border-radius: 100%;
 }
-.login-btn:active {
+/* .login-btn:active {
     
-}
+} */
 .login-btn:focus {
     border: 5px solid transparent;
     outline: transparent;
