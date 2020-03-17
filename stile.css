@@ -126,26 +126,37 @@ li {
     top: 70px;
     left:6px;
 }
-.user-login-icon:focus {
+.user-login:focus {
     outline: none;
-    border: 1px solid transparent;
+    /* border: 0px solid transparent; */
 }
-.user-pass-icon:focus {
+.user-pass:focus {
     outline: none;
-    border: 1px solid transparent;
+    /* border: 0px solid transparent; */
 }
 
 .login-btn {
-    width: 57px;
-    height: 58px;
+    background: url(img/login-form-btn.png) no-repeat;
+    width: 55px;
+    height: 55px;
     position: relative;
-    top:-78px;
+    top:-82px;
     left: 192px;
-    border-top: 2px solid #000;
-    border-left: 3px solid #000;
-    border-right: 3px solid #000;
-    border-bottom: 5px solid #000;
     border-radius: 100%;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.login-btn:hover {
+    background: url(img/login-form-btn-hover.png) no-repeat;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top:-82px;
+    left: 192px;
+    border-radius: 100%;
+}
+.login-btn:active {
+    
 }
 .login-btn:focus {
     border: 5px solid transparent;
