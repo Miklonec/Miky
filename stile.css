@@ -25,9 +25,9 @@ body {
 .rigel {
     position: absolute;
     width: 70%;
-    left: -200px;
-    top: -910px;
-    border-radius: 40%;
+    left: -150px;
+    top: -1070px;
+    border-radius: 50%;
     z-index: -16;
 }
 .h-450 {
